@@ -1,0 +1,483 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Container Styling */
+.container01 {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    background-color: black;
+    z-index: 1000;
+}
+
+.container01 .logo {
+    color: brown;
+    display: flex;
+    padding: 10px;
+    box-shadow: 5px 10px 30px red;
+}
+
+.container01 .logo h3 {
+    margin-left: 15px;
+}
+
+.container01 nav a {
+    color: brown;
+    text-decoration: none;
+    margin: 10px;
+    padding: 4px;
+}
+
+.container01 nav a:hover {
+    border-bottom: 2px dotted white;
+}
+
+/* Content Styling */
+.content .content01 {
+    font-size: 72px;
+}
+
+.content01 {
+    margin: 15% 20%;
+    line-height: 4rem;
+}
+
+.content01 h1 {
+    font-size: 60px;
+    font-family: sans-serif;
+    font-weight: 800;
+}
+
+.content01 p {
+    margin-top: 10px;
+    font-size: 32px;
+}
+
+.content01 p span {
+    color: brown;
+    font-family: sans-serif;
+    font-weight: 800;
+}
+
+.content01 p span:hover {
+    border-bottom: 2px solid white;
+    transition: 5s;
+}
+
+.content {
+    display: flex;
+    padding-right: 200px;
+}
+
+.content .image01 {
+    margin: 50px;
+    padding-right: 50px;
+    transform: translateX(-100px);
+}
+
+.content .image01 img:hover {
+    animation: name-of-animation 5s infinite;
+}
+
+.content .image01 img {
+    width: 200%;
+    height: 90%;
+    border-radius: 40px;
+    outline: none;
+    object-fit: cover;
+}
+
+/* Section Styling */
+.section02 {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+
+.container02 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 800px;
+}
+
+.container02 .text-box {
+    margin: 20px;
+}
+
+.container02 .text-box h1 {
+    color: red;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.container02 .text-box p {
+    max-width: 400px;
+    margin-top: 20px;
+    line-height: 2rem;
+    color: black;
+    font-weight: 800;
+}
+
+.container02 .image02 img {
+    transform: translateX(110px);
+    border-radius: 50%;
+    border: 2px dotted black;
+}
+
+/* Skills Section */
+.section2 {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+
+.section2 h1 {
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.section2 h1 span {
+    color: red;
+}
+
+.section2 .mainbox {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.section2 .mainbox .box {
+    margin: 40px 50px;
+    align-content: center;
+}
+
+.section2 .box img {
+    width: 120px;
+    margin-left: 30px;
+}
+
+.section2 .box h2 {
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.box .percent {
+    margin-top: 10px;
+    display: flex;
+}
+
+.box .percent .progress {
+    width: 150px;
+    height: 25px;
+    background-color: rgb(87, 87, 87);
+    border-radius: 10px;
+}
+
+.box .percent .progress .progress-bar {
+    background-color: rgb(9, 150, 185);
+    height: 25px;
+    border-radius: 10px;
+}
+
+.box .percent .percentage {
+    padding: 5px;
+}
+
+/* Section 4 */
+.section04 {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    background-color: white;
+    padding-top: 80px;
+    margin: 20px;
+}
+
+.section04 h1 {
+    color: black;
+    font-weight: 500;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+.section04 h3 {
+    color: red;
+}
+
+.section04 .container05 {
+    display: flex;
+    justify-content: space-around;
+    transform: translateY(140px);
+}
+
+.container05 h4 {
+    color: red;
+    padding-bottom: 20px;
+}
+
+.container05 .left .left_inside {
+    display: flex;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.left_inside h6 {
+    width: 200px;
+}
+
+.left_content h6 {
+    color: black;
+}
+
+.left_content p {
+    color: rgba(28, 6, 6, 0.89);
+}
+
+.left h4 {
+    transform: translateY(-20px);
+}
+
+.left_inside a {
+    padding: 30px;
+    transform: translateY(1px);
+}
+
+.left_content {
+    transform: translateY(15px);
+}
+
+.left {
+    border: 2px solid rgb(81, 81, 81);
+    padding-right: 20px;
+    width: 600px;
+    border-radius: 10px;
+}
+
+.left h4 {
+    margin-top: 20px;
+}
+
+.left:hover {
+    box-shadow: 5px 5px 10px black;
+}
+
+.right .one_tab input {
+    display: block;
+    width: 100%;
+}
+
+.right {
+    border: 2px solid rgb(81, 81, 81);
+    padding-right: 20px;
+    width: 600px;
+    border-radius: 10px;
+}
+
+.right:hover {
+    box-shadow: 5px 5px 10px black;
+    visibility: visible;
+}
+
+
+.right input {
+    margin: 10px;
+    height: 30px;
+}
+
+.right .msg {
+    height: 100px;
+    width: 100%;
+}
+
+.right ::placeholder {
+    color: black;
+    transform: translateX(20px);
+}
+
+.right button {
+    background-color: red;
+    color: black;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    border: 0px;
+}
+
+.right .two_tabs input {
+    width: 50%;
+}
+
+footer .container_new {
+    text-align: center;
+    font-size: 10px;
+    color: red;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+
+@keyframes name-of-animation {
+    0%    { opacity: 0; }
+    20%   { opacity: 1; }
+    80%   { opacity: 0; }
+    100%  { opacity: 1; }
+  }
+
+@media screen and (max-width:600px) {
+        body {
+            width: 400px;
+            text-align: center;
+            height: 619px;
+        }
+        .section01 nav a{
+            display: block;
+            color: blue;
+            transform: translate(-70px,100px);
+        }
+        .section01 .logo {
+            margin-bottom: 150px;
+            transform: translateX(110px);
+        }
+        .section01 nav a:hover {
+            border-bottom: 2px dotted white;
+            margin-right: 25px;
+        }
+        .section01 {
+            height: 100vh;
+
+        }
+        .section01 .content {
+            margin-top: 100px;
+            transform: translateX(50px);
+        }
+        .section02 {
+            height: 120vh;
+        }
+        .section02 img {
+            width: 200px;
+            height: 200px;
+        }
+        .section02 .image02 {
+            padding-top: 70px;
+        }
+        .container02 {
+            display: block;
+        }
+        .section2 {
+            height: 350vh;
+        }
+        .section04 {
+            height: 150vh;
+        }
+        .section04 .container05 {
+            display: block;
+            
+        }
+        .left {
+            width: 300px;
+            transform: translateX(80px);
+            margin-bottom: 30px;
+        }
+        .left h4 {
+            padding-top: 20px;
+        }
+        .right {
+            width: 300px;
+            transform: translateX(80px);
+        }
+        .right:hover {
+            background-color: white;
+        }
+}
+@media screen and (max-width:600px) {
+    body {
+        width: 400px;
+        text-align: center;
+        height: 619px;
+    }
+    .section01 nav a{
+        display: block;
+        color: blue;
+        transform: translate(-70px,100px);
+    }
+    .section01 .logo {
+        margin-bottom: 150px;
+        transform: translateX(110px);
+    }
+    .section01 nav a:hover {
+        border-bottom: 2px dotted white;
+        margin-right: 25px;
+    }
+    .section01 {
+        height: 100vh;
+
+    }
+    .section01 .content {
+        margin-top: 100px;
+        transform: translateX(50px);
+    }
+    .section02 {
+        height: 120vh;
+    }
+    .section02 img {
+        width: 200px;
+        height: 200px;
+    }
+    .section02 .image02 {
+        padding-top: 70px;
+    }
+    .container02 {
+        display: block;
+    }
+    .section2 {
+        height: 350vh;
+    }
+    .section04 {
+        height: 150vh;
+    }
+    .section04 .container05 {
+        display: block;
+        
+    }
+    .left {
+        width: 300px;
+        transform: translateX(80px);
+        margin-bottom: 30px;
+    }
+    .left h4 {
+        padding-top: 20px;
+    }
+    .right {
+        width: 300px;
+        transform: translateX(80px);
+    }
+    .right:hover {
+        background-color: white;
+    }
+
+
+
+}
